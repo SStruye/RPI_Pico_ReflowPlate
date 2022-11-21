@@ -38,6 +38,7 @@ As user interface a SSD1306 display and a KY-040 rotary encoder with push button
 * fix power supply noise: 
   - add debouncing for rotary encoder? 
   - add filter btwn buck converter and PICO?
-* write PID controller code
+* write PID controller testcode
+* write debounce testcode
 * add bill of materials
 * laser labels on enclosure
