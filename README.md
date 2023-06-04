@@ -2,15 +2,10 @@
 PICO Reflow Plate is a diy reflow plate based around a raspberry PI pico. The user is capable of adjusting the settings of the reflow curve like, preheat temperature, soak time, reflow temperature en reflow time.
 ## Usage:
 - After  turning on the power the start menu will appear on the screen. 
-#### Picture
 - Selecting the setup menu will take you to the different adjustable parameters.
-#### Picture
 - After adjusting the parameters go back to the start menu en press start reflow. This will start te process.
-#### Picture
 - The current temperature, elapsed time and current state will be displayed on the screen during the reflow process.
-#### Picture
 - After the reflowing is done, the plate will go in to cooldown mode until the plate is below 50 degrees.
-#### Picture
 
 ## Build:
 ### Hardware:
@@ -30,11 +25,3 @@ Furthermore a solidstate relay is used to control the PTC elements, a 230V to 3.
 As user interface a SSD1306 display and a KY-040 rotary encoder with push button is used.
 
 <img src="docs/gutshot.jpg" alt="pic" width="375"/> <img src="docs/build.jpg" alt="pic" width="375"/>
-
-### Software:
-## BOM:
-## todo:
-* finish readme
-* write PID controller testcode
-* add bill of materials
-* laser labels on enclosure
